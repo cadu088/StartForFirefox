@@ -1,5 +1,5 @@
-# iniciarFirefox
-English:
+# Start for Firefox
+# English:
 This is a simple start tab for faster and more accurate use in your search, the "MODE" that is below the search tab and covers redirect to sites like Facebook, Linkedin, Youtube, among others... but if you want do a simple search you will succeed without even using “MODE”.
 Configured thinking about the best usability of the search bar, these tabs are still being tested, but with the White mode it is native Black.
 
@@ -17,7 +17,7 @@ NOTE: program for Firefox but probably works on others... Enjoy the search mode 
 ![imgV1 1](https://user-images.githubusercontent.com/72260079/128791725-191a3cdc-e298-49fb-98af-4f4326df51e1.JPG)
 
 _______________________________________________________________________________________________________________________________________________________________________
-Português:
+# Português:
 Está é uma simples aba iniciar para o uso mais rápido e certeiro em sua pesquisa, o “MODE” que fica abaixo da aba de pesquisa é capas de redirecionar para sites como Facebook, Linkedin, Youtube, entre outros... más se você quiser fazer uma pesquisa simples você ira conseguir com sucesso sem mesmo usar o “MODE”. 
 Configurado pensando na melhor usabilidade da barra de pesquisa, estás abas estão ainda em testes, mas já com modo Branco é Preto nativo. 
 
