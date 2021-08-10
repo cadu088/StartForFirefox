@@ -1,4 +1,4 @@
-# Start for Firefox
+# Start for Firefox / instructions
 # English:
 This is a simple start tab for faster and more accurate use in your search, the "MODE" that is below the search tab and covers redirect to sites like Facebook, Linkedin, Youtube, among others... but if you want do a simple search you will succeed without even using “MODE”.
 Configured thinking about the best usability of the search bar, these tabs are still being tested, but with the White mode it is native Black.
