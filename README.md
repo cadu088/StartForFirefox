@@ -16,13 +16,13 @@ NOTE: program for Firefox but probably works on others... Enjoy the search mode 
 
 _______________________________________________________________________________________________________________________________________________________________________
 Português:
-Está é uma simples aba iniciar para o uso mais rápido e certeiro em sua pesquisa, o “MODO” que fica abaixo da aba de pesquisa é capas de redirecionar para sites como Facebook, Linkeding, Youtube, entre outros... más se você quiser fazer uma pesquisa simples você ira conseguir com sucesso sem mesmo usar o “MODO”. 
+Está é uma simples aba iniciar para o uso mais rápido e certeiro em sua pesquisa, o “MODE” que fica abaixo da aba de pesquisa é capas de redirecionar para sites como Facebook, Linkeding, Youtube, entre outros... más se você quiser fazer uma pesquisa simples você ira conseguir com sucesso sem mesmo usar o “MODE”. 
 Configurado pensando na melhor usabilidade da barra de pesquisa, estás abas estão ainda em testes, mas já com modo Branco é Preto nativo. 
 
 Como usar o “Search”:
-Assim como em outras abas de pesquisa, basta escrever sua pesquisa e você pesquisara no google, caso não tenha escolhido o “MODO” para sua pesquisa.
+Assim como em outras abas de pesquisa, basta escrever sua pesquisa e você pesquisara no google, caso não tenha escolhido o “MODE” para sua pesquisa.
 
-Como usar o “MODO”:
+Como usar o “MODE”:
 Para o uso o “modo de pesquisa avançada” a única coisa que você fazer é digitar a inicial do site para que você seja redirecionado com sua pesquisa. 
 Ex: Y = Youtube, L = Linkeding, F= Facebook, G1 = G1 Noticias, entre outros
 Obs: caso queira adicionar novos modos de pesquisa, você pode adicionar por aqui mesmo, qualquer melhoria é bem vinda 
