@@ -14,6 +14,8 @@ Note: if you want to add new search modes, you can add them right here, any impr
 
 NOTE: program for Firefox but probably works on others... Enjoy the search mode and any changes are free to add it. See you soon :)
 
+![imgV1 1](https://user-images.githubusercontent.com/72260079/128791725-191a3cdc-e298-49fb-98af-4f4326df51e1.JPG)
+
 _______________________________________________________________________________________________________________________________________________________________________
 Português:
 Está é uma simples aba iniciar para o uso mais rápido e certeiro em sua pesquisa, o “MODE” que fica abaixo da aba de pesquisa é capas de redirecionar para sites como Facebook, Linkeding, Youtube, entre outros... más se você quiser fazer uma pesquisa simples você ira conseguir com sucesso sem mesmo usar o “MODE”. 
@@ -30,6 +32,6 @@ Obs: caso queira adicionar novos modos de pesquisa, você pode adicionar por aqu
 
 OBS: programa para o Firefox mas provavelmente funciona em outros... Aproveitem o modo de pesquisa e qualquer alteração fique livre para adicioná-la. Até breve :) 
 
-![imgV1 1](https://user-images.githubusercontent.com/72260079/128791725-191a3cdc-e298-49fb-98af-4f4326df51e1.JPG)
+![imgV1 1BLACK](https://user-images.githubusercontent.com/72260079/128869920-39e3ef60-20a2-4cb3-9767-47c324379895.JPG)
 
 
