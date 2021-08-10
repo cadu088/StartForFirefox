@@ -1,0 +1,134 @@
+body {
+    background-color: #efffff;
+    background-image: url("https://media4.giphy.com/media/hvjxoLnUIGmqzPvyNU/giphy.gif?cid=ecf05e47k50s59vbfhxrxsn1s5cxsr6b5o91ka3v2n1wt1f0&rid=giphy.gif&ct=g");
+    background-image: image();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    -webkit-animation-name: name;
+    animation: name 3s infinite;
+    animation-name: name;
+}
+
+@keyframes pap {
+    0% {
+        filter: brightness(100%);
+        background-size: 22.5%;
+    }
+    10% {
+        filter: brightness(100%);
+        background-size: 22%;
+    }
+    20% {
+        filter: brightness(200%);
+        background-size: 21.5%;
+    }
+    30% {
+        filter: brightness(250%);
+        background-size: 21%;
+    }
+    40% {
+        filter: brightness(300%);
+        background-size: 20.5%;
+    }
+    50% {
+        filter: brightness(350%);
+        background-size: 20%;
+    }
+    60% {
+        filter: brightness(300%);
+        background-size: 20.5%;
+    }
+    70% {
+        filter: brightness(250%);
+        background-size: 21%;
+    }
+    80% {
+        filter: brightness(200%);
+        background-size: 21.5%;
+    }
+    90% {
+        filter: brightness(150%);
+        background-size: 22%;
+    }
+    100% {
+        filter: brightness(100%);
+        background-size: 22.5%;
+    }
+}
+
+.container {
+    align-items: center;
+    width: 60vw;
+    margin-top: 15%;
+}
+
+#pesquisaBar {
+    margin-left: 1rem;
+    border-bottom: black;
+    border-color: black;
+    border: 5vw
+}
+
+#pesquisa,
+#pesquisaS {
+    height: 3.4vw;
+    width: 45vw;
+    border-left: #212429;
+    border-right: #212429;
+    border-color: black;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    font-size: 1rem;
+}
+
+#setaAbre {
+    height: 3.4vw;
+    border-color: black;
+    font-size: 2rem;
+    border-right: #212429;
+}
+
+#setaFecha {
+    height: 3.4vw;
+    border-color: black;
+    font-size: 2rem;
+    border-left: #212429;
+}
+
+#classePesquisa {
+    margin-left: 40%;
+    width: 10vw;
+    border: black;
+    color: black;
+    border-left-color: #212429;
+}
+
+#buttonAcao {
+    width: 5vw;
+    height: 2.7vw;
+    border-color: black;
+    border-left: #212429;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-decoration-color: crimson;
+}
+
+#modoDePesquisa {
+    width: 4vw;
+    height: 2.7vw;
+    border-color: black;
+    border-right: #212429;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+button {
+    transition: background 3s;
+}
+
+button:hover,
+button:focus {
+    transition: background 8s;
+    background: black;
+}
