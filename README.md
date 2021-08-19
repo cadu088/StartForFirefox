@@ -25,7 +25,7 @@ Como usar o “Search”:
 Assim como em outras abas de pesquisa, basta escrever sua pesquisa e você pesquisara no google, caso não tenha escolhido o “MODE” para sua pesquisa.
 
 Como usar o “MODE”:
-Para o uso o “modo de pesquisa avançada” a única coisa que você fazer é digitar a inicial do site para que você seja redirecionado com sua pesquisa. 
+Para o uso do “modo de pesquisa avançada” a única coisa que você precisa fazer é digitar a inicial do site para que você seja redirecionado com sua pesquisa. 
 Ex: Y = Youtube, L = Linkedin, F= Facebook, G1 = G1 Noticias, entre outros
 Obs: caso queira adicionar novos modos de pesquisa, você pode adicionar por aqui mesmo, qualquer melhoria é bem vinda 
 
