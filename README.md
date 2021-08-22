@@ -14,7 +14,8 @@ Note: if you want to add new search modes, you can add them right here, any impr
 
 NOTE: program for Firefox but probably works on others... Enjoy the search mode and any changes are free to add it. See you soon :)
 
-![imgV1 1](https://user-images.githubusercontent.com/72260079/128791725-191a3cdc-e298-49fb-98af-4f4326df51e1.JPG)
+![Capturar](https://user-images.githubusercontent.com/72260079/130363470-c264f014-a50c-42ca-8509-b3a2af8ec16b.JPG)
+
 
 _______________________________________________________________________________________________________________________________________________________________________
 ### _Português_:
@@ -32,7 +33,7 @@ Obs: caso queira adicionar novos modos de pesquisa, você pode adicionar por aqu
 
 OBS: programa para o Firefox mas provavelmente funciona em outros... Aproveitem o modo de pesquisa e qualquer alteração fique livre para adicioná-la. Até breve :) 
 
-![imgV1 1BLACK](https://user-images.githubusercontent.com/72260079/128869920-39e3ef60-20a2-4cb3-9767-47c324379895.JPG)
+![Capturar](https://user-images.githubusercontent.com/72260079/130363475-f3eb87eb-4ad5-4cbb-b0c3-ebaeab6924f0.JPG)
 _______________________________________________________________________________________________________________________________________________________________________
 
 
