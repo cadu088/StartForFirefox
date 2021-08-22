@@ -1,134 +1,221 @@
-body {
-    background-color: #efffff;
-    background-image: url("https://media4.giphy.com/media/hvjxoLnUIGmqzPvyNU/giphy.gif?cid=ecf05e47k50s59vbfhxrxsn1s5cxsr6b5o91ka3v2n1wt1f0&rid=giphy.gif&ct=g");
-    background-image: image();
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20%;
-    -webkit-animation-name: name;
-    animation: name 3s infinite;
-    animation-name: name;
+:root {
+    --background-color: #120014;
+    --border-color: rgb(0, 0, 0);
+    --color: rgba(68, 0, 255, 0.2);
+    /* --background-image: url("https://media2.giphy.com/media/uGz9OvQL8eSSu47pCi/giphy.gif?cid=ecf05e4719t9454l1bver4ht21zppvkk7azpeske3mwjzmsl&rid=giphy.gif&ct=g") !important; */
 }
 
-@keyframes pap {
-    0% {
-        filter: brightness(100%);
-        background-size: 22.5%;
-    }
-    10% {
-        filter: brightness(100%);
-        background-size: 22%;
-    }
-    20% {
-        filter: brightness(200%);
-        background-size: 21.5%;
-    }
-    30% {
-        filter: brightness(250%);
-        background-size: 21%;
-    }
-    40% {
-        filter: brightness(300%);
-        background-size: 20.5%;
-    }
-    50% {
-        filter: brightness(350%);
-        background-size: 20%;
-    }
-    60% {
-        filter: brightness(300%);
-        background-size: 20.5%;
-    }
-    70% {
-        filter: brightness(250%);
-        background-size: 21%;
-    }
-    80% {
-        filter: brightness(200%);
-        background-size: 21.5%;
-    }
-    90% {
-        filter: brightness(150%);
-        background-size: 22%;
-    }
-    100% {
-        filter: brightness(100%);
-        background-size: 22.5%;
-    }
+body {
+    background-color: var(--background-color);
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70;
+    background-size: 22.78vw;
+}
+
+#darkmode {
+    margin-left: 2vw;
+    margin-top: 16vw;
+    margin-bottom: 0vw;
+    align-items: center;
+    width: 60vw;
+    position: center;
 }
 
 .container {
     align-items: center;
     width: 60vw;
-    margin-top: 15%;
+    margin-top: 25vw;
+    position: center;
+    display: flex;
+    /* 19.53125vw */
 }
 
 #pesquisaBar {
-    margin-left: 1rem;
-    border-bottom: black;
-    border-color: black;
-    border: 5vw
+    margin-left: 4vw;
+    border-bottom: var(--border-color);
+    border-color: var(--border-color);
+    border: 5vw;
+    align-items: center;
+    max-height: 3vw;
+    box-shadow: inset 0 0 0em 0 var(--color), 0 0 1rem var(--color);
+    border-radius: 10px;
+    border-radius: 30px;
 }
 
 #pesquisa,
 #pesquisaS {
-    height: 3.4vw;
-    width: 45vw;
-    border-left: #212429;
-    border-right: #212429;
-    border-color: black;
+    max-height: 3vw;
+    width: 35vw;
+    border-left: var(--border-color);
+    border-right: var(--border-color);
+    border-color: var(--border-color);
     box-shadow: 0 0 0 0;
     outline: 0;
-    font-size: 1rem;
+    font-size: 1vw;
+    font-family: Tahoma, sans-serif;
 }
 
 #setaAbre {
-    height: 3.4vw;
-    border-color: black;
-    font-size: 2rem;
-    border-right: #212429;
+    width: 3.5vw;
+    height: 3vw;
+    border-color: var(--border-color);
+    font-size: 2vw;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: white;
+    box-shadow: inset 0 0 0em 0 var(--color), 0 0 1em var(--color);
 }
 
 #setaFecha {
-    height: 3.4vw;
-    border-color: black;
-    font-size: 2rem;
-    border-left: #212429;
+    width: 3.5vw;
+    height: 3vw;
+    border-color: var(--border-color);
+    font-size: 2vw;
+    border-left: var(--border-color);
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    box-shadow: inset 0 0 0em 0 var(--color), 0 0 1em var(--color);
 }
 
 #classePesquisa {
-    margin-left: 40%;
-    width: 10vw;
-    border: black;
-    color: black;
-    border-left-color: #212429;
-}
-
-#buttonAcao {
+    margin-left: 26vw;
     width: 5vw;
-    height: 2.7vw;
-    border-color: black;
-    border-left: #212429;
-    box-shadow: 0 0 0 0;
-    outline: 0;
-    text-decoration-color: crimson;
+    border: var(--border-color);
+    color: var(--border-color);
+    border-left-color: white;
+    border-top: white;
 }
 
 #modoDePesquisa {
-    width: 4vw;
-    height: 2.7vw;
-    border-color: black;
-    border-right: #212429;
+    max-width: 10vw;
+    height: 3vw;
+    border-color: var(--border-color);
+    border-left: var(--border-color);
+    border-right: var(--border-color);
     box-shadow: 0 0 0 0;
     outline: 0;
+    box-shadow: inset 0 0 1em 0 var(--color), 0 0 1em var(--color);
+    font-family: Tahoma, sans-serif;
 }
 
-button {
-    transition: background 3s;
+
+/* BarNews */
+
+#dataText {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: -73px;
+    border: 2px;
+    background: linear-gradient(45deg, #000000, #52057B, #892CDC, #BC6FF1);
+    background-size: 300% 300%;
+    animation: colorir 10s ease infinite;
+    box-shadow: 0 0 1em rgba(255, 255, 255, 0.619);
 }
 
-button:hover,
-button:focus {
-    transition: background 8s;
-    background: black;
+#texto1 {
+    margin-top: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0.619);
+    width: 98vw;
+    height: 2rem;
+    text-align: center;
+    background-position-y: 3;
+    position: absolute;
+    font-size: 18px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.619);
+}
+
+#DataTexto {
+    margin-top: 1px;
+    align-items: initial;
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    margin-top: 4px;
+    font-family: Arial, sans-serif;
+}
+
+#emoji {
+    position: relative;
+    text-align: end;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+#emojin {
+    margin-top: -5px;
+    background-color: transparent;
+    animation: brilho 10s infinite;
+    animation-name: brilho;
+}
+
+#dataTime {
+    margin-top: -33px;
+    margin-right: 60px;
+    position: relative;
+    text-align: end;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+#diaSet {
+    margin-top: -5px;
+    color: white;
+    mix-blend-mode: exclusion;
+}
+
+@keyframes colorir {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes brilho {
+    0% {
+        filter: brightness(100%);
+    }
+    10% {
+        filter: brightness(80%);
+    }
+    20% {
+        filter: brightness(70%);
+    }
+    30% {
+        filter: brightness(60%);
+    }
+    40% {
+        filter: brightness(70%);
+    }
+    50% {
+        filter: brightness(80%);
+    }
+    60% {
+        filter: brightness(90%);
+    }
+    70% {
+        filter: brightness(100%);
+    }
+    80% {
+        filter: brightness(110%);
+    }
+    90% {
+        filter: brightness(100%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
 }

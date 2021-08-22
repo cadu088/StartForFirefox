@@ -6,41 +6,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="style white.css" rel="stylesheet">
     <title>⌬ Inicio </title>
 </head>
 
 
-<body>
+<body onload="relogio()">
     <br><br><br>
+    <div id="branco"> </div>
+    <div id="dataText">
+        <div id="branco">
+            <div id="texto1">
+                <a id="DataTexto">Bom dia</a>
+            </div>
+            <div id="emoji">
+                <a id="emojin">emoji</a>
+            </div>
+            <div id="dataTime">
+                <a id="diaSet">Hoje é...</a>
+            </div>
+        </div>
+    </div>
+    <!--Fim da barra animada-->
 
-    <div class="container">
-        <div id="pesquisaBar">
-            <!--Barra de pesquisa-->
-            <div class="input-group mb-3 p-3 mb-2">
-                <span id="setaAbre" class="input-group-text rounded-left text-success p-1 mb-1 bg-transparent"><font color="chartreuse"><"</font></span>
-                <div id="pesquisa" class="form-floating mb-3 text-success bg-transparent">
-                    <input type="email" id="pesquisaS" class="form-control text-white rounded-0 bg-transparent" id="floatingInput" placeholder="Como está o clima hoje?">
-                    <label class="outline bg-transparent" for="floatingInput"> <font color="chartreuse">Search for...</font></label>
+
+    <main>
+        <div class="container">
+            <div id="pesquisaBar">
+                <!--Barra de pesquisa-->
+                <div class="input-group">
+                    <span id="setaAbre" class="fw-bold input-group-text rounded-left text-success p-1 mb-1 bg-white"><font color="black"> <"</font></span>
+                    <div id="pesquisa" class="form-floating p-0 mb-3 text-white bg-transparent">
+                        <input type="text" id="pesquisaS" class="fw-bold  mb-3 p-0 form-control text-black rounded-0 bg-white" id="floatingInput" placeholder="Como está o clima hoje?">
+                        <label class="outline mb-3 p-2 bg-transparent" for="floatingInput"> <font class="fw-bold" color="black">Search for...</font></label>
+                    </div>
+                    <input type="text" class="form-control text-warning bg-transparent" id="modoDePesquisa" placeholder="Mode" aria-describedby="button-addon2" required>
+                    <span id="setaFecha" class="fw-bold input-group-text text-white rounded-right p-1 mb-1 bg-white"><font color="black">"></font></span>
                 </div>
-                <span id="setaFecha" class="input-group-text text-success rounded-right p-1 mb-1 bg-transparent"><font color="chartreuse">"></font></span>
             </div>
         </div>
         <!--Fim da barra de pesquisa-->
-
-        <div id="classePesquisa">
-            <div class="input-group mb-3">
-                <!--Botão de pesquisa-->
-                <input type="text" class="form-control text-warning bg-transparent" id="modoDePesquisa" placeholder="Mode" aria-describedby="button-addon2" required>
-                <button onclick="pesquisar()" type="button" id="buttonAcao" class="btn btn-outline-chartreuse"><font color="ff333f">Run</font></button>
-            </div>
-        </div>
-        <!--Fim do botão de pesquisa-->
-    </div>
-    <!--Fim do container principal-->
+        <!--Fim do container principal-->
+    </main>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>
+
 
 </html>
